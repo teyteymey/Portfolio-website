@@ -230,12 +230,6 @@ const GitProfile = ({ config }: { config: Config }) => {
                         experiences={sanitizedConfig.experiences}
                       />
                     )}
-                    {sanitizedConfig.certifications.length !== 0 && (
-                      <CertificationCard
-                        loading={loading}
-                        certifications={sanitizedConfig.certifications}
-                      />
-                    )}
                     {sanitizedConfig.educations.length !== 0 && (
                       <EducationCard
                         loading={loading}
@@ -256,10 +250,10 @@ const GitProfile = ({ config }: { config: Config }) => {
                         googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
                       />
                     )}
-                    {sanitizedConfig.publications.length !== 0 && (
-                      <PublicationCard
+                    {sanitizedConfig.certifications.length !== 0 && (
+                      <CertificationCard
                         loading={loading}
-                        publications={sanitizedConfig.publications}
+                        certifications={sanitizedConfig.certifications}
                       />
                     )}
                     {sanitizedConfig.projects.external.projects.length !==

@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
-        limit: 6, // How many projects to display.
+        limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -106,6 +106,12 @@ const CONFIG = {
       to: 'July 2023',
       companyLink: 'https://deloitte.com',
     },
+    {
+      company: 'Polytechnic University of Catalonia ',
+      position: 'Software Architect Internship',
+      from: 'September 2022',
+      to: 'January 2023',
+    },
   ],
   certifications: [
     {
@@ -117,7 +123,7 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Politechnic University of Catalonia (UPC)',
+      institution: 'Polytechnic University of Catalonia (UPC)',
       degree: 'Bachelor in Informatics Engineering (Computer Science)',
       from: '2019',
       to: '2023',
