@@ -29,7 +29,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
       <div className="grid place-items-center py-8">
         {loading || !profile ? (
           <div className="avatar opacity-90">
-            <div className="mb-8 rounded-full w-32 h-32">
+            <div className="mb-4 rounded-full w-32 h-32">
               {skeleton({
                 widthCls: 'w-full',
                 heightCls: 'h-full',
@@ -40,7 +40,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
         ) : (
           <div className="avatar opacity-90">
             <div
-              className={`mb-8 rounded-full w-32 h-32 ${
+              className={`mb-4 rounded-full w-32 h-32 ${
                 avatarRing
                   ? 'ring ring-primary ring-offset-base-100 ring-offset-2'
                   : ''
@@ -60,17 +60,17 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
             </div>
           </div>
         )}
-        <div className="text-center mx-auto px-8">
+        <div className="text-center mx-auto px-4">
           <h5 className="font-bold text-2xl">
             {loading || !profile ? (
-              skeleton({ widthCls: 'w-48', heightCls: 'h-8' })
+              skeleton({ widthCls: 'w-48', heightCls: 'h-4' })
             ) : (
               <span className="text-base-content opacity-70">
                 {profile.name}
               </span>
             )}
           </h5>
-          <div className="mt-3 text-base-content text-opacity-60 font-mono">
+          <div className="mt-2 text-base-content text-opacity-60 font-mono">
             {loading || !profile
               ? skeleton({ widthCls: 'w-48', heightCls: 'h-5' })
               : profile.bio}
@@ -78,14 +78,14 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
         </div>
         {resumeFileUrl &&
           (loading ? (
-            <div className="mt-6">
+            <div className="mt-4">
               {skeleton({ widthCls: 'w-40', heightCls: 'h-8' })}
             </div>
           ) : (
             <a
               href={resumeFileUrl}
               target="_blank"
-              className="btn btn-outline btn-sm text-xs mt-6 opacity-50"
+              className="btn btn-outline btn-sm text-xs mt-4 opacity-50"
               download
               rel="noreferrer"
             >
