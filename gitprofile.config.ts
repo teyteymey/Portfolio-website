@@ -49,7 +49,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'tatianameyer',
+    linkedin: 'tatiana-meyer-uran',
     twitter: '',
     mastodon: '',
     researchGate: '',
@@ -86,18 +86,25 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Deloitte',
-      position: 'Analyst',
-      from: 'September 2021',
+      company: 'Booking.com',
+      position: 'Software Engineer I',
+      from: 'January 2023',
       to: 'Present',
-      companyLink: 'https://deloitte.com',
+      companyLink: 'https://booking.com',
     },
     {
       company: 'Booking.com',
       position: 'Junior Software Engineer',
       from: 'September 2023',
-      to: 'January 2024',
+      to: 'December 2024',
       companyLink: 'https://booking.com',
+    },
+    {
+      company: 'Deloitte',
+      position: 'Analyst',
+      from: 'April 2023',
+      to: 'July 2023',
+      companyLink: 'https://deloitte.com',
     },
   ],
   certifications: [
@@ -110,42 +117,33 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Politechnic University of Catalonia (UPC)',
+      degree: 'Bachelor in Informatics Engineering (Computer Science)',
+      from: '2019',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Hogeschool Saxion',
+      degree: 'Erasmus + programme, Advanced App Developmenent',
+      from: 'February 2022',
+      to: 'July 2022',
     },
   ],
   publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+    // {
+    //   title: 'Publication Title',
+    //   conferenceName: '',
+    //   journalName: 'Journal Name',
+    //   authors: 'John Doe, Jane Smith',
+    //   link: 'https://example.com',
+    //   description:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    // }
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
