@@ -76,13 +76,16 @@ const CONFIG = {
   },
   skills: [
     'Java',
-    'JavaScript',
-    'React.js',
-    'Node.js',
+    'Python',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker'
+    'AWS',
+    'Kubernetes'
+    'React.js',
+    'Node.js',
+    
   ],
   experiences: [
     {
@@ -114,6 +117,12 @@ const CONFIG = {
     },
   ],
   certifications: [
+    {
+      name: 'Lorem ipsum',
+      body: 'Lorem ipsum dolor sit amet',
+      year: 'March 2022',
+      link: 'https://example.com',
+    },
     {
       name: 'Lorem ipsum',
       body: 'Lorem ipsum dolor sit amet',
