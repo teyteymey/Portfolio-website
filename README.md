@@ -4,7 +4,7 @@ The original repo and documentation is below. The Github information serves as a
 
 The purpose is to have my own website hosted under my website, tatianameyer.dev. For now, I decided to reuse a very well done and mantained repo to ease the development experience (and time) while being able to update the code as I needed. And I think it worked out great.
 
-Now that you made it here, look around and enjoy! And all credits to the original repo, 5/7.
+Now that you made it here, look around and enjoy! And all credit to the original repo.
 
 
 
