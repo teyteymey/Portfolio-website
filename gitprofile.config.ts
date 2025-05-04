@@ -117,16 +117,21 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Cloud Digital Leader',
+      body: 'A Cloud Digital Leader can articulate the capabilities of Google Cloud core products and services and how they benefit organizations. They can also describe common business use cases and how cloud solutions support an enterprise.',
+      year: 'April 2023',
+      link: 'https://www.credential.net/4ec13fc6-d0a8-4939-a918-a9d218b7563c#acc.Hkth1RCn',
     },
     {
-      name: 'Lorem ipsum',
+      name: 'CS50’s Introduction to Artificial Intelligence with Python',
       body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      year: 'May 2024 - In Progress',
+      link: 'https://cs50.harvard.edu/ai/2024/',
+    },
+    {
+      name: 'Other courses',
+      body: 'Find more details on my LinkedIn profile. They are not listed here for brevity.',
+      link: 'https://www.linkedin.com/in/tatiana-meyer-uran/',
     },
   ],
   educations: [
@@ -169,7 +174,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'valentine',
+    defaultTheme: 'light',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
