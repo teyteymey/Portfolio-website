@@ -1,3 +1,9 @@
+# What is this repo?
+I forked this repo that is meant to generate a CV from using my Github profile and made some changes to fit my needs better.
+The original repo and documentation is below.
+Enjoy!
+
+
 <br/>
 
 <p align="center">
