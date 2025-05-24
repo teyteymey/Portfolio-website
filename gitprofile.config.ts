@@ -117,14 +117,14 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Cloud Digital Leader',
+      name: 'Google Cloud Certified - Cloud Digital Leader',
       body: 'A Cloud Digital Leader can articulate the capabilities of Google Cloud core products and services and how they benefit organizations. They can also describe common business use cases and how cloud solutions support an enterprise.',
       year: 'April 2023',
       link: 'https://www.credential.net/4ec13fc6-d0a8-4939-a918-a9d218b7563c#acc.Hkth1RCn',
     },
     {
       name: 'CS50’s Introduction to Artificial Intelligence with Python',
-      body: 'Lorem ipsum dolor sit amet',
+      body: 'This course explores the concepts and algorithms at the foundation of modern artificial intelligence, diving into the ideas that give rise to technologies like game-playing engines, handwriting recognition, and machine translation. Through hands-on projects, students gain exposure to the theory behind graph search algorithms, classification, optimization, machine learning, large language models, and other topics in artificial intelligence as they incorporate them into their own Python programs.',
       year: 'May 2024 - In Progress',
       link: 'https://cs50.harvard.edu/ai/2024/',
     },
