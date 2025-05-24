@@ -6,7 +6,7 @@ The purpose is to have my own website hosted under my website, tatianameyer.dev.
 
 Now that you made it here, look around and enjoy! And all credit to the original repo.
 
-
+run with: `npm run dev`
 
 <br/>
 
